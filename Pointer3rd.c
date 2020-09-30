@@ -3,13 +3,13 @@
 
 int main()
 {
-    int *a,;
-    a=(int*)mal(sizeof(int));
+    int *a,*b,*m;
+    a=(int*)malloc(sizeof(int));
     b=(int*)malloc(sizeof(int));
-    m=(int*)mac(sizeof(int));
+    m=(int*)malloc(sizeof(int));
     printf("Enter 2 values of a & b :- \n");
     scanf("%d%d",a,b);
     *m=*a**b;
-    printf("\nMultiplication of a & b = %d",);
+    printf("\nMultiplication of a & b = %d",*m);
     
 }
